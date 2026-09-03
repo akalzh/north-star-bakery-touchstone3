@@ -1,7 +1,5 @@
 # North Star Bakery - Touchstone 3
 
-This folder contains the updated multi-page website for Sophia Touchstone 3.
-
 Files:
 - index.html
 - products.html
@@ -21,5 +19,3 @@ Responsive layout:
 - Mobile-first CSS
 - Flexbox for navigation, hero, product cards and other layouts
 - Media queries at 720px and 1000px
-
-Note: replace the GitHub URL placeholder in the completed Touchstone 3 document with your actual public repository URL.
