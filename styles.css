@@ -278,9 +278,7 @@ button {
     gap: 1.5rem;
     align-items: flex-start;
   }
-  .two-column > * {
-    min-width: 0;
-  }
+  .two-column > * { min-width: 0; }
   .section-accent .two-column > div {
     flex: 0 1 46%;
   }
@@ -293,6 +291,26 @@ button {
     height: 360px;
     object-fit: cover;
     border-radius: 12px;
+  }
+
+  /* Homepage "What we're known for": large photo first, readable text below. */
+  .known-for {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .known-for > img {
+    flex: none !important;
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+
+  .known-for-copy {
+    flex: none !important;
+    width: 100%;
+    max-width: 900px;
   }
 }
 @media (min-width: 1000px) {
