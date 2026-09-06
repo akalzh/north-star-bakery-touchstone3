@@ -321,6 +321,7 @@ button {
 
   .hero-copy, .hero-media {
     flex: 1 1 0;
+    min-width: 0;
   }
 
   .hero-media {
@@ -342,12 +343,21 @@ button {
 
   .two-column {
     display: flex;
-    gap: 1.25rem;
-    align-items: flex-start;
+    gap: 1.5rem;
+    align-items: center;
   }
 
   .two-column > * {
-    flex: 1 1 0;
+    flex: 1 1 50%;
+    min-width: 0;
+  }
+
+  .two-column img {
+    width: 100%;
+    max-width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
   }
 }
 
